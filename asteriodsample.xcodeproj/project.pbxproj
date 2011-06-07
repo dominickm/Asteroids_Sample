@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5E2532139DA8F6003F0024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5E2531139DA8F6003F0024 /* UIKit.framework */; };
+		4C5E2534139DA8F6003F0024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5E2533139DA8F6003F0024 /* Foundation.framework */; };
+		4C5E2536139DA8F6003F0024 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5E2535139DA8F6003F0024 /* CoreGraphics.framework */; };
+		4C5E253C139DA8F6003F0024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C5E253A139DA8F6003F0024 /* InfoPlist.strings */; };
+		4C5E253F139DA8F6003F0024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E253E139DA8F6003F0024 /* main.m */; };
+		4C5E2542139DA8F6003F0024 /* asteriodsampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E2541139DA8F6003F0024 /* asteriodsampleAppDelegate.m */; };
+		4C5E2545139DA8F6003F0024 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5E2543139DA8F6003F0024 /* MainWindow.xib */; };
+		4C5E2548139DA8F6003F0024 /* asteriodsampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E2547139DA8F6003F0024 /* asteriodsampleViewController.m */; };
+		4C5E254B139DA8F6003F0024 /* asteriodsampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5E2549139DA8F6003F0024 /* asteriodsampleViewController.xib */; };
+		4C5E2553139DA9AF003F0024 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E2552139DA9AF003F0024 /* GameView.m */; };
+		4C5E2556139DABB2003F0024 /* EZSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E2555139DABB2003F0024 /* EZSprite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C5E252D139DA8F6003F0024 /* asteriodsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asteriodsample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5E2531139DA8F6003F0024 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C5E2533139DA8F6003F0024 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C5E2535139DA8F6003F0024 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C5E2539139DA8F6003F0024 /* asteriodsample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "asteriodsample-Info.plist"; sourceTree = "<group>"; };
+		4C5E253B139DA8F6003F0024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C5E253D139DA8F6003F0024 /* asteriodsample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "asteriodsample-Prefix.pch"; sourceTree = "<group>"; };
+		4C5E253E139DA8F6003F0024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C5E2540139DA8F6003F0024 /* asteriodsampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asteriodsampleAppDelegate.h; sourceTree = "<group>"; };
+		4C5E2541139DA8F6003F0024 /* asteriodsampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asteriodsampleAppDelegate.m; sourceTree = "<group>"; };
+		4C5E2544139DA8F6003F0024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4C5E2546139DA8F6003F0024 /* asteriodsampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asteriodsampleViewController.h; sourceTree = "<group>"; };
+		4C5E2547139DA8F6003F0024 /* asteriodsampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asteriodsampleViewController.m; sourceTree = "<group>"; };
+		4C5E254A139DA8F6003F0024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/asteriodsampleViewController.xib; sourceTree = "<group>"; };
+		4C5E2551139DA9AF003F0024 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		4C5E2552139DA9AF003F0024 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		4C5E2554139DABB2003F0024 /* EZSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZSprite.h; sourceTree = "<group>"; };
+		4C5E2555139DABB2003F0024 /* EZSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZSprite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5E252A139DA8F6003F0024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5E2532139DA8F6003F0024 /* UIKit.framework in Frameworks */,
+				4C5E2534139DA8F6003F0024 /* Foundation.framework in Frameworks */,
+				4C5E2536139DA8F6003F0024 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C5E2522139DA8F6003F0024 = {
+			isa = PBXGroup;
+			children = (
+				4C5E2537139DA8F6003F0024 /* asteriodsample */,
+				4C5E2530139DA8F6003F0024 /* Frameworks */,
+				4C5E252E139DA8F6003F0024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5E252E139DA8F6003F0024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5E252D139DA8F6003F0024 /* asteriodsample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5E2530139DA8F6003F0024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C5E2531139DA8F6003F0024 /* UIKit.framework */,
+				4C5E2533139DA8F6003F0024 /* Foundation.framework */,
+				4C5E2535139DA8F6003F0024 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C5E2537139DA8F6003F0024 /* asteriodsample */ = {
+			isa = PBXGroup;
+			children = (
+				4C5E2540139DA8F6003F0024 /* asteriodsampleAppDelegate.h */,
+				4C5E2541139DA8F6003F0024 /* asteriodsampleAppDelegate.m */,
+				4C5E2543139DA8F6003F0024 /* MainWindow.xib */,
+				4C5E2546139DA8F6003F0024 /* asteriodsampleViewController.h */,
+				4C5E2547139DA8F6003F0024 /* asteriodsampleViewController.m */,
+				4C5E2549139DA8F6003F0024 /* asteriodsampleViewController.xib */,
+				4C5E2551139DA9AF003F0024 /* GameView.h */,
+				4C5E2552139DA9AF003F0024 /* GameView.m */,
+				4C5E2554139DABB2003F0024 /* EZSprite.h */,
+				4C5E2555139DABB2003F0024 /* EZSprite.m */,
+				4C5E2538139DA8F6003F0024 /* Supporting Files */,
+			);
+			path = asteriodsample;
+			sourceTree = "<group>";
+		};
+		4C5E2538139DA8F6003F0024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5E2539139DA8F6003F0024 /* asteriodsample-Info.plist */,
+				4C5E253A139DA8F6003F0024 /* InfoPlist.strings */,
+				4C5E253D139DA8F6003F0024 /* asteriodsample-Prefix.pch */,
+				4C5E253E139DA8F6003F0024 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5E252C139DA8F6003F0024 /* asteriodsample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5E254E139DA8F6003F0024 /* Build configuration list for PBXNativeTarget "asteriodsample" */;
+			buildPhases = (
+				4C5E2529139DA8F6003F0024 /* Sources */,
+				4C5E252A139DA8F6003F0024 /* Frameworks */,
+				4C5E252B139DA8F6003F0024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = asteriodsample;
+			productName = asteriodsample;
+			productReference = 4C5E252D139DA8F6003F0024 /* asteriodsample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5E2524139DA8F6003F0024 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4C5E2527139DA8F6003F0024 /* Build configuration list for PBXProject "asteriodsample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C5E2522139DA8F6003F0024;
+			productRefGroup = 4C5E252E139DA8F6003F0024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5E252C139DA8F6003F0024 /* asteriodsample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5E252B139DA8F6003F0024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5E253C139DA8F6003F0024 /* InfoPlist.strings in Resources */,
+				4C5E2545139DA8F6003F0024 /* MainWindow.xib in Resources */,
+				4C5E254B139DA8F6003F0024 /* asteriodsampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5E2529139DA8F6003F0024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5E253F139DA8F6003F0024 /* main.m in Sources */,
+				4C5E2542139DA8F6003F0024 /* asteriodsampleAppDelegate.m in Sources */,
+				4C5E2548139DA8F6003F0024 /* asteriodsampleViewController.m in Sources */,
+				4C5E2553139DA9AF003F0024 /* GameView.m in Sources */,
+				4C5E2556139DABB2003F0024 /* EZSprite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C5E253A139DA8F6003F0024 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5E253B139DA8F6003F0024 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C5E2543139DA8F6003F0024 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5E2544139DA8F6003F0024 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4C5E2549139DA8F6003F0024 /* asteriodsampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5E254A139DA8F6003F0024 /* en */,
+			);
+			name = asteriodsampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C5E254C139DA8F6003F0024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C5E254D139DA8F6003F0024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4C5E254F139DA8F6003F0024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "asteriodsample/asteriodsample-Prefix.pch";
+				INFOPLIST_FILE = "asteriodsample/asteriodsample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C5E2550139DA8F6003F0024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "asteriodsample/asteriodsample-Prefix.pch";
+				INFOPLIST_FILE = "asteriodsample/asteriodsample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5E2527139DA8F6003F0024 /* Build configuration list for PBXProject "asteriodsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5E254C139DA8F6003F0024 /* Debug */,
+				4C5E254D139DA8F6003F0024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5E254E139DA8F6003F0024 /* Build configuration list for PBXNativeTarget "asteriodsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5E254F139DA8F6003F0024 /* Debug */,
+				4C5E2550139DA8F6003F0024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C5E2524139DA8F6003F0024 /* Project object */;
+}
