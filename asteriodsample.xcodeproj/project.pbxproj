@@ -18,6 +18,7 @@
 		4C5E254B139DA8F6003F0024 /* asteriodsampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5E2549139DA8F6003F0024 /* asteriodsampleViewController.xib */; };
 		4C5E2553139DA9AF003F0024 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E2552139DA9AF003F0024 /* GameView.m */; };
 		4C5E2556139DABB2003F0024 /* EZSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E2555139DABB2003F0024 /* EZSprite.m */; };
+		4CF24595139DB60000CB3542 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4CF24594139DB60000CB3542 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		4C5E2552139DA9AF003F0024 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
 		4C5E2554139DABB2003F0024 /* EZSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZSprite.h; sourceTree = "<group>"; };
 		4C5E2555139DABB2003F0024 /* EZSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZSprite.m; sourceTree = "<group>"; };
+		4CF24594139DB60000CB3542 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		4C5E2522139DA8F6003F0024 = {
 			isa = PBXGroup;
 			children = (
+				4CF24594139DB60000CB3542 /* README.txt */,
 				4C5E2537139DA8F6003F0024 /* asteriodsample */,
 				4C5E2530139DA8F6003F0024 /* Frameworks */,
 				4C5E252E139DA8F6003F0024 /* Products */,
@@ -161,6 +164,7 @@
 				4C5E253C139DA8F6003F0024 /* InfoPlist.strings in Resources */,
 				4C5E2545139DA8F6003F0024 /* MainWindow.xib in Resources */,
 				4C5E254B139DA8F6003F0024 /* asteriodsampleViewController.xib in Resources */,
+				4CF24595139DB60000CB3542 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				4C5E2550139DA8F6003F0024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
